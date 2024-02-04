@@ -7,7 +7,7 @@ using Microsoft.Extensions.Logging;
 namespace ContosoCrafts.WebSite.Pages
 {
     /// <summary>
-    /// Nomi Sodnombayar.
+    /// Nomi Sodnombayar
     /// </summary>
     public class IndexModel : PageModel
     {
