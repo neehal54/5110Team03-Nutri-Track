@@ -1,11 +1,11 @@
 [
   {
-    "Id": "jenlooper-cactus",
-    "Maker": "@jenlooper",
-    "img": "https://user-images.githubusercontent.com/41929050/61567048-13938600-aa33-11e9-9cfd-712191013192.jpeg",
-    "Url": "https://www.hackster.io/agent-hawking-1/the-quantified-cactus-an-easy-plant-soil-moisture-sensor-e65393",
-    "Title": "The Quantified Cactus: An Easy Plant Soil Moisture Sensor",
-    "Description": "This project is a good learning project to get comfortable with soldering and programming an Arduino.",
+    "Id": "Nomi-Hungry",
+    "Maker": "Hungryroot",
+    "img": "https://d219o304zcx1el.cloudfront.net/daa2c201-41a8-4822-a7f2-13a87be4e840.jpg",
+    "Url": "https://d219o304zcx1el.cloudfront.net/daa2c201-41a8-4822-a7f2-13a87be4e840.jpg&quot",
+    "Title": "Fun World Men\u0027s Big Top Clown Costume",
+    "Description": "Its a Clown. Have fun showing friends this fantastic funny costume",
     "Ratings": [
       5,
       5
@@ -14,36 +14,36 @@
   {
     "Id": "jenlooper-light",
     "Maker": "jenlooper",
-    "img": "https://user-images.githubusercontent.com/41929050/61567049-13938600-aa33-11e9-9c69-a4184bf8e524.jpeg",
-    "Url": "https://www.hackster.io/agent-hawking-1/book-light-dee7e4",
+    "img": "https://d219o304zcx1el.cloudfront.net/34d8dd20-10fe-4776-8061-9e558d9c06de.jpg",
+    "Url": "https://d219o304zcx1el.cloudfront.net/34d8dd20-10fe-4776-8061-9e558d9c06de.jpg&quot",
     "Title": "A beautiful switch-on book light",
     "Description": "Use craft items you have around the house, plus two LEDs and a LilyPad battery holder, to create a useful book light for reading in the dark.",
     "Ratings": null
   },
   {
-    "Id": "jenlooper-lightshow",
-    "Maker": "@jenlooper",
-    "img": "https://user-images.githubusercontent.com/41929050/61567053-13938600-aa33-11e9-9780-104fe4019659.png",
-    "Url": "https://www.hackster.io/agent-hawking-1/bling-your-laptop-with-an-internet-connected-light-show-30e4db",
-    "Title": "Bling your Laptop with an Internet-Connected Light Show",
+    "Id": "Beef Pad thai",
+    "Maker": "@Nomi",
+    "img": "https://d219o304zcx1el.cloudfront.net/1d24af5f-a428-49c7-be10-9028ff97e2f2.jpg",
+    "Url": "https://d219o304zcx1el.cloudfront.net/1d24af5f-a428-49c7-be10-9028ff97e2f2.jpg&quot",
+    "Title": "Beef Pad Thai Veggie Stir-Fry",
     "Description": "Create a web-connected light-strip API controllable from your website, using the Particle.io.",
     "Ratings": null
   },
   {
     "Id": "jenlooper-survival",
-    "Maker": "jenlooper",
-    "img": "https://user-images.githubusercontent.com/41929050/61567051-13938600-aa33-11e9-8ae7-0b5c19aafab4.jpeg",
-    "Url": "https://www.hackster.io/agent-hawking-1/create-a-compact-survival-kit-38bfdb",
-    "Title": "Create a Compact Survival Kit with LED Track Lighting",
+    "Maker": "Nomi",
+    "img": "https://d219o304zcx1el.cloudfront.net/938fc3dd-1b69-4260-a60b-bf1fc3712188.jpg",
+    "Url": "https://d219o304zcx1el.cloudfront.net/938fc3dd-1b69-4260-a60b-bf1fc3712188.jpg&quot",
+    "Title": "Creamy Garlic Shawarma Chicken Pita",
     "Description": "Use an Altoids tin with Chibitronics sticker LEDs to create a light-up compact that doubles as a survival kit for the young hipster",
     "Ratings": null
   },
   {
     "Id": "sailorhg-bubblesortpic",
-    "Maker": "sailorhg",
-    "img": "https://user-images.githubusercontent.com/41929050/61567054-13938600-aa33-11e9-9163-eec98e239b7a.png",
-    "Url": "https://twitter.com/sailorhg/status/1090107740049952770",
-    "Title": "Bubblesort Visualization",
+    "Maker": "HungryRoot",
+    "img": "https://d219o304zcx1el.cloudfront.net/ea486cf9-963a-41b6-bcde-3a23f584a030.jpg",
+    "Url": "https://d219o304zcx1el.cloudfront.net/ea486cf9-963a-41b6-bcde-3a23f584a030.jpg&quot",
+    "Title": "Chicken Tikka Masala Naan Pizza",
     "Description": "Visualization of sailor scouts sorted by bubblesort algorithm by their planet\u0027s distance from the sun",
     "Ratings": null
   },
@@ -54,7 +54,12 @@
     "Url": "https://twitter.com/sailorhg/status/1090113666911891456",
     "Title": "Light-up Corsage",
     "Description": "Light-up corsage I made with my summer intern.",
-    "Ratings": null
+    "Ratings": [
+      3,
+      5,
+      1,
+      5
+    ]
   },
   {
     "Id": "sailorhg-kit",
@@ -63,7 +68,11 @@
     "Url": "https://twitter.com/sailorhg/status/1090122822007963648",
     "Title": "Pastel hardware kit",
     "Description": "Pastel hardware kits complete with custom manufactured pastel alligator clips.",
-    "Ratings": null
+    "Ratings": [
+      5,
+      5,
+      5
+    ]
   },
   {
     "Id": "sailorhg-led",
@@ -100,11 +109,10 @@
     "Title": "Hipster Dev",
     "Description": "Hipster Dev is busy coding away while styled in a camo jacket and orange beanie.",
     "Ratings": [
-      4,
       5,
       5,
       5,
-      2
+      5
     ]
   },
   {
@@ -114,7 +122,15 @@
     "Url": "https://www.vogueandcode.com/shop/pretty-girls-code-tee",
     "Title": "Pretty Girls Code Tee",
     "Description": "Everyone\u2019s favorite design is finally here on a tee! The Pretty Girls Code crew-neck tee is available in a soft pink with red writing.",
-    "Ratings": null
+    "Ratings": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
   },
   {
     "Id": "vogueandcode-ruby-sis-2",
