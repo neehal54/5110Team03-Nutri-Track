@@ -43,6 +43,7 @@ for details on configuring this project to bundle and minify static web assets. 
 
 .card-footer {
     background: #fbfafd;
+    text-align:center;
 }
 
 
@@ -61,14 +62,14 @@ a {
 
 .btn-primary {
     color: #fff;
-    background-color: #252152;
-    border-color: #252152;
+    background-color: #68C100;
+    border: none;
 }
 
     .btn-primary:hover {
         color: #fff;
-        background-color: #e9a8a6;
-        border-color: #e9a8a6;
+        background-color: #FFAF10;
+        border: none;
     }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
