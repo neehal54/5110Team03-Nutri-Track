@@ -9,7 +9,7 @@ namespace ContosoCrafts.WebSite.Pages
     /// <summary>
     /// Nomi Sodnombayar
     /// Ben Tran
-9   /// Neehal
+   /// Neehal
     /// </summary>
     public class IndexModel : PageModel
     {
