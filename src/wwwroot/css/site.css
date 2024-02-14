@@ -144,10 +144,10 @@ ul {
 }
 
 .bg-footer {
-    background: -webkit-linear-gradient(110deg, #68C100 60%, #FFAF10 60%);
-    background: -o-linear-gradient(110deg, #68C100 60%, #FFAF10 60%);
-    background: -moz-linear-gradient(110deg, #68C100 60%, #FFAF10 60%);
-    background: linear-gradient(110deg, #68C100 60%, #FFAF10 60%);
+    background: -webkit-linear-gradient(110deg, #C2A6BE 60%, #C2A6BE 60%);
+    background: -o-linear-gradient(110deg, #C2A6BE 60%, #C2A6BE 60%);
+    background: -moz-linear-gradient(110deg, #C2A6BE 60%, #C2A6BE 60%);
+    background: linear-gradient(110deg, #C2A6BE 60%, #C2A6BE 60%);
 }
 
 .nav-logo-img {
