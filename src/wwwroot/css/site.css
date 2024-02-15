@@ -8,6 +8,7 @@
 
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
+
 .card-columns .card:hover .card-img {
     opacity: 1;
     -webkit-transform-style: preserve-3d;
@@ -184,7 +185,7 @@ ul {
 }
 
     .nav-left-buttons > * {
-        margin-right: 20px;
+        margin-left: 50px;
         font-family: 'Segoe UI',sans-serif;
         font-weight: 700;
         font-size: 17px;
@@ -213,8 +214,8 @@ ul {
     height: 390px;
     overflow: hidden;
     display: flex;
-    justify-content: center; /* Horizontally center the content */
-    align-items: center; /* Vertically center the content */
+    justify-content: center; 
+    align-items: center;
     margin-bottom: 25px;
     position: relative;
 }
@@ -228,26 +229,25 @@ ul {
 .hero-text {
     position: absolute;
     top: 50%; /* Position the text 50% from the top of the hero-section */
-    left: 25%; /* Position the text 50% from the left of the hero-section */
+    left: 25%; /* Position the text 25% from the left of the hero-section */
     transform: translate(-50%, -50%); /* Center the text both horizontally and vertically */
-    color: black; /* Set text color */
-    text-align: center; /* Center-align text */
+    color: black; 
+    text-align: center; 
     width:500px;
     padding-bottom:25px;
-    /* You can add additional styling as needed */
 }
 
 .hero-text-title {
-    font-size: 52px; /* Set font size */
-    font-weight: 700; /* Set font weight */
+    font-size: 52px;
+    font-weight: 700; 
     letter-spacing: 1px;
     margin: 4px;
     color: #68C100;
   
 }
 .hero-text-description {
-    font-size: 20px; /* Set font size */
-    font-weight: 400; /* Set font weight */
+    font-size: 20px;
+    font-weight: 400; 
     line-height: 26px;
     margin: auto;
     color: black;
