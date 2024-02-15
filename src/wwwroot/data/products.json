@@ -3,8 +3,8 @@
     "Id": "Nomi-Hungry",
     "Maker": "Hungryroot",
     "img": "https://d219o304zcx1el.cloudfront.net/daa2c201-41a8-4822-a7f2-13a87be4e840.jpg",
-    "Url": "https://d219o304zcx1el.cloudfront.net/daa2c201-41a8-4822-a7f2-13a87be4e840.jpg&quot",
-    "Title": "Chicken 'n Guac Burrito Bowl",
+    "Url": "https://d219o304zcx1el.cloudfront.net/daa2c201-41a8-4822-a7f2-13a87be4e840.jpg\u0026quot",
+    "Title": "Chicken \u0027n Guac Burrito Bowl",
     "Description": "Its a Clown. Have fun showing friends this fantastic funny costume",
     "Ratings": null
   },
@@ -12,8 +12,8 @@
     "Id": "Nomi-Hungry",
     "Maker": "HungryRoot",
     "img": "https://d219o304zcx1el.cloudfront.net/34d8dd20-10fe-4776-8061-9e558d9c06de.jpg",
-    "Url": "https://d219o304zcx1el.cloudfront.net/34d8dd20-10fe-4776-8061-9e558d9c06de.jpg&quot",
-    "Title": "Bright 'n Sweet Tofu Veggie Bowl",
+    "Url": "https://d219o304zcx1el.cloudfront.net/34d8dd20-10fe-4776-8061-9e558d9c06de.jpg\u0026quot",
+    "Title": "Bright \u0027n Sweet Tofu Veggie Bowl",
     "Description": "Use craft items you have around the house, plus two LEDs and a LilyPad battery holder, to create a useful book light for reading in the dark.",
     "Ratings": null
   },
@@ -21,7 +21,7 @@
     "Id": "Beef Pad thai",
     "Maker": "@Nomi",
     "img": "https://d219o304zcx1el.cloudfront.net/1d24af5f-a428-49c7-be10-9028ff97e2f2.jpg",
-    "Url": "https://d219o304zcx1el.cloudfront.net/1d24af5f-a428-49c7-be10-9028ff97e2f2.jpg&quot",
+    "Url": "https://d219o304zcx1el.cloudfront.net/1d24af5f-a428-49c7-be10-9028ff97e2f2.jpg\u0026quot",
     "Title": "Beef Pad Thai Veggie Stir-Fry",
     "Description": "Create a web-connected light-strip API controllable from your website, using the Particle.io.",
     "Ratings": null
@@ -30,7 +30,7 @@
     "Id": "Garlic chicken",
     "Maker": "HungryRoot",
     "img": "https://d219o304zcx1el.cloudfront.net/938fc3dd-1b69-4260-a60b-bf1fc3712188.jpg",
-    "Url": "https://d219o304zcx1el.cloudfront.net/938fc3dd-1b69-4260-a60b-bf1fc3712188.jpg&quot",
+    "Url": "https://d219o304zcx1el.cloudfront.net/938fc3dd-1b69-4260-a60b-bf1fc3712188.jpg\u0026quot",
     "Title": "Creamy Garlic Shawarma Chicken Pita",
     "Description": "Use an Altoids tin with Chibitronics sticker LEDs to create a light-up compact that doubles as a survival kit for the young hipster",
     "Ratings": null
@@ -39,7 +39,7 @@
     "Id": "Tikka Masala",
     "Maker": "HungryRoot",
     "img": "https://d219o304zcx1el.cloudfront.net/ea486cf9-963a-41b6-bcde-3a23f584a030.jpg",
-    "Url": "https://d219o304zcx1el.cloudfront.net/ea486cf9-963a-41b6-bcde-3a23f584a030.jpg&quot",
+    "Url": "https://d219o304zcx1el.cloudfront.net/ea486cf9-963a-41b6-bcde-3a23f584a030.jpg\u0026quot",
     "Title": "Chicken Tikka Masala Naan Pizza",
     "Description": "Visualization of sailor scouts sorted by bubblesort algorithm by their planet\u0027s distance from the sun",
     "Ratings": null
@@ -48,16 +48,18 @@
     "Id": "Zestyd",
     "Maker": "Root",
     "img": "https://d219o304zcx1el.cloudfront.net/73f2177c-16e7-44d1-a201-4ca7011434b5.jpg",
-    "Url": "https://d219o304zcx1el.cloudfront.net/73f2177c-16e7-44d1-a201-4ca7011434b5.jpg&quot",
+    "Url": "https://d219o304zcx1el.cloudfront.net/73f2177c-16e7-44d1-a201-4ca7011434b5.jpg\u0026quot",
     "Title": "Zesty Shrimp Taco Salad",
     "Description": "Light-up corsage I made with my summer intern.",
-    "Ratings": null
+    "Ratings": [
+      3
+    ]
   },
   {
     "Id": "steak",
     "Maker": "Hungryroot",
     "img": "https://d219o304zcx1el.cloudfront.net/050e0720-afa4-4273-85dc-df6736171cc1.jpg",
-    "Url": "https://d219o304zcx1el.cloudfront.net/050e0720-afa4-4273-85dc-df6736171cc1.jpg&quot",
+    "Url": "https://d219o304zcx1el.cloudfront.net/050e0720-afa4-4273-85dc-df6736171cc1.jpg\u0026quot",
     "Title": "Ribeye Steak with Mushroom Pan Sauce",
     "Description": "Pastel hardware kits complete with custom manufactured pastel alligator clips.",
     "Ratings": null
@@ -66,7 +68,7 @@
     "Id": "Shroom",
     "Maker": "Hungryroot",
     "img": "https://d219o304zcx1el.cloudfront.net/a1b4ef9d-2afe-4d33-bdcb-54fe24ebfa26.jpg",
-    "Url": "https:https://d219o304zcx1el.cloudfront.net/a1b4ef9d-2afe-4d33-bdcb-54fe24ebfa26.jpg&quot",
+    "Url": "https:https://d219o304zcx1el.cloudfront.net/a1b4ef9d-2afe-4d33-bdcb-54fe24ebfa26.jpg\u0026quot",
     "Title": "Creamy Mushroom Orzo",
     "Description": "custom molded heart shaped LED with sprinkles.",
     "Ratings": null
@@ -75,8 +77,8 @@
     "Id": "Tandoori",
     "Maker": "Hungryroot",
     "img": "https://d219o304zcx1el.cloudfront.net/59f1d5aa-6adf-419d-a42d-cbd08c05f107.jpg",
-    "Url": "https://d219o304zcx1el.cloudfront.net/59f1d5aa-6adf-419d-a42d-cbd08c05f107.jpg&quot",
-    "Title": "Tandoori Paneer with Curry Carrots + Spinach",
+    "Url": "https://d219o304zcx1el.cloudfront.net/59f1d5aa-6adf-419d-a42d-cbd08c05f107.jpg\u0026quot",
+    "Title": "Tandoori Paneer with Curry Carrots \u002B Spinach",
     "Description": "Black sweatshirt hoody with the Sick of the Internet logo.",
     "Ratings": null
   },
@@ -84,8 +86,8 @@
     "Id": "Mash",
     "Maker": "HungryRoot",
     "img": "https://d219o304zcx1el.cloudfront.net/0a699e10-e21f-403e-984d-d4e17481ec51.jpg",
-    "Url": "https://d219o304zcx1el.cloudfront.net/0a699e10-e21f-403e-984d-d4e17481ec51.jpg&quot",
-    "Title": "Ribeye Steak + Cauliflower Mash",
+    "Url": "https://d219o304zcx1el.cloudfront.net/0a699e10-e21f-403e-984d-d4e17481ec51.jpg\u0026quot",
+    "Title": "Ribeye Steak \u002B Cauliflower Mash",
     "Description": "Still some time to enter the pin/sticker giveaway! ",
     "Ratings": null
   },
@@ -93,26 +95,28 @@
     "Id": "Rissoto",
     "Maker": "Hungryroot",
     "img": "https://d219o304zcx1el.cloudfront.net/402e84bf-d72d-43a6-882e-b3bfb3ee1cdd.jpg",
-    "Url": "https://d219o304zcx1el.cloudfront.net/402e84bf-d72d-43a6-882e-b3bfb3ee1cdd.jpg&quot",
+    "Url": "https://d219o304zcx1el.cloudfront.net/402e84bf-d72d-43a6-882e-b3bfb3ee1cdd.jpg\u0026quot",
     "Title": "Grilled Chicken Alfredo Mushroom Risotto",
     "Description": "Hipster Dev is busy coding away while styled in a camo jacket and orange beanie.",
-    "Ratings": null
+    "Ratings": [
+      2
+    ]
   },
   {
     "Id": "tostado",
     "Maker": "hungryroot",
     "img": "https://d219o304zcx1el.cloudfront.net/4c46f5d8-e87e-4a2e-855d-03aa0232f866.jpg",
-    "Url": "https://d219o304zcx1el.cloudfront.net/4c46f5d8-e87e-4a2e-855d-03aa0232f866.jpg&quot",
+    "Url": "https://d219o304zcx1el.cloudfront.net/4c46f5d8-e87e-4a2e-855d-03aa0232f866.jpg\u0026quot",
     "Title": "Cheesy Chicken Tostada",
     "Description": "Everyone\u2019s favorite design is finally here on a tee! The Pretty Girls Code crew-neck tee is available in a soft pink with red writing.",
-    "Ratings":null
+    "Ratings": null
   },
   {
     "Id": "BBQ",
     "Maker": "hungryroot",
     "img": "https://d219o304zcx1el.cloudfront.net/ddf16c8f-d3fa-4636-9983-f5098e17d94e.jpg",
-    "Url": "https://d219o304zcx1el.cloudfront.net/ddf16c8f-d3fa-4636-9983-f5098e17d94e.jpg&quot",
-    "Title": "BBQ Bison Sloppy Joe + Sweet Potato Bun",
+    "Url": "https://d219o304zcx1el.cloudfront.net/ddf16c8f-d3fa-4636-9983-f5098e17d94e.jpg\u0026quot",
+    "Title": "BBQ Bison Sloppy Joe \u002B Sweet Potato Bun",
     "Description": "Styled in a dashiki, Ruby Sis is listening to music while coding in her favorite language, Ruby!",
     "Ratings": null
   },
@@ -120,8 +124,8 @@
     "Id": "Fajitas",
     "Maker": "hungryroot",
     "img": "https://d219o304zcx1el.cloudfront.net/9330e54f-525a-4b4e-b19c-2f4d06efa17e.jpg",
-    "Url": "https://d219o304zcx1el.cloudfront.net/9330e54f-525a-4b4e-b19c-2f4d06efa17e.jpg&quot",
-    "Title": "Roast + Ready Pulled Chicken Fajitas",
+    "Url": "https://d219o304zcx1el.cloudfront.net/9330e54f-525a-4b4e-b19c-2f4d06efa17e.jpg\u0026quot",
+    "Title": "Roast \u002B Ready Pulled Chicken Fajitas",
     "Description": "Not sure if I\u0027ll be making more, get it while I have it in the store.",
     "Ratings": null
   },
@@ -129,7 +133,7 @@
     "Id": "bagel",
     "Maker": "hungryroot",
     "img": "https://d219o304zcx1el.cloudfront.net/bf9402e3-ec9f-4a09-888e-10f452890a87.jpg",
-    "Url": "https://d219o304zcx1el.cloudfront.net/bf9402e3-ec9f-4a09-888e-10f452890a87.jpg&quot",
+    "Url": "https://d219o304zcx1el.cloudfront.net/bf9402e3-ec9f-4a09-888e-10f452890a87.jpg\u0026quot",
     "Title": "Mediterranean Falafel Bagel",
     "Description": "Used up the Diskette fabric today to make 2 of these crops.",
     "Ratings": null

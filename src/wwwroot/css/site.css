@@ -18,7 +18,10 @@ for details on configuring this project to bundle and minify static web assets. 
     font-family: 'Nunito', sans-serif;
     background: #C2A6BE;
 }
-
+.card-columns .card-title {
+    font-family: 'Segoe UI',sans-serif;
+    font-weight: 600;
+}
 .card-columns .card-img {
     height: 330px;
     vertical-align: bottom;
@@ -61,9 +64,10 @@ a {
 }
 
 .btn-primary {
-    color: #fff;
+    color: white;
     background-color: #68C100;
     border: none;
+    font-family: 'Segoe UI',sans-serif;
 }
 
     .btn-primary:hover {
@@ -181,13 +185,24 @@ ul {
         margin-right: 20px;
         font-family: 'Segoe UI',sans-serif;
         font-weight: 700;
-        font-size: 16px;
+        font-size: 17px;
         letter-spacing: 0.5px;
         color: #68C100;
     }
+
+        .nav-left-buttons > *:hover {
+            color: #FFAF10;
+            border: none;
+            text-decoration: none;
+        }
 
 .nav-right-buttons {
     width: 40%;
     display: flex;
     justify-content: flex-end;
+}
+
+.modal-title {
+    font-family: 'Segoe UI',sans-serif;
+    font-weight: 600;
 }
