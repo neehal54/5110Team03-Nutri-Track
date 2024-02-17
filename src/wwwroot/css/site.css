@@ -17,7 +17,7 @@ for details on configuring this project to bundle and minify static web assets. 
 .card-columns .card-body {
     height: 100px;
     font-family: 'Nunito', sans-serif;
-    background: #C2A6BE;
+    background: #61846229;
 }
 
 .card-columns .card-title {
@@ -214,7 +214,7 @@ ul {
     height: 390px;
     overflow: hidden;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     margin-bottom: 25px;
     position: relative;
@@ -231,25 +231,24 @@ ul {
     top: 50%; /* Position the text 50% from the top of the hero-section */
     left: 25%; /* Position the text 25% from the left of the hero-section */
     transform: translate(-50%, -50%); /* Center the text both horizontally and vertically */
-    color: black; 
-    text-align: center; 
-    width:500px;
-    padding-bottom:25px;
+    color: black;
+    text-align: center;
+    width: 500px;
+    padding-bottom: 25px;
 }
 
 .hero-text-title {
     font-size: 52px;
-    font-weight: 700; 
+    font-weight: 700;
     letter-spacing: 1px;
     margin: 4px;
     color: #68C100;
-  
 }
+
 .hero-text-description {
     font-size: 20px;
-    font-weight: 400; 
+    font-weight: 400;
     line-height: 26px;
     margin: auto;
     color: black;
-    ;
 }
