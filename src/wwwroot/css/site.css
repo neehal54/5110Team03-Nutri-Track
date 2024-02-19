@@ -241,7 +241,7 @@ ul {
     font-size: 52px;
     font-weight: 700;
     letter-spacing: 1px;
-    margin: 4px;
+    margin: 0px;
     color: #68C100;
 }
 
@@ -249,6 +249,64 @@ ul {
     font-size: 20px;
     font-weight: 400;
     line-height: 26px;
-    margin: auto;
+    margin: 0px;
     color: black;
+}
+
+
+@media (max-width: 1200px) {
+    .hero-section {
+        height: max-content;
+    }
+    .hero-text {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 992px) {
+    .nav-left-buttons {
+        padding-left: 0px;
+    }
+    .hero-text {
+        max-width: 300px;
+        padding-bottom: 0px;
+    }
+    .hero-text-title {
+        margin: -2px;
+        font-size: 45px;
+    }
+
+    .hero-text-description {
+        font-size: 19px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-text {
+        max-width: 200px;
+    }
+    .hero-text-title {
+        font-size: 35px;
+        margin: -5px;
+    }
+    .hero-text-description {
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+@media (max-width: 576px) {
+    .hero-text {
+        max-width: 200px;
+    }
+
+    .hero-text-title {
+        font-size: 32px;
+        margin: -5px;
+    }
+
+    .hero-text-description {
+        font-size: 16px;
+        line-height: 17px;
+    }
 }
