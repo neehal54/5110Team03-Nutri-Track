@@ -18,29 +18,17 @@ namespace ContosoCrafts.WebSite.Services
 
         private string JsonFileName => Path.Combine(WebHostEnvironment.WebRootPath, "data", "products.json");
 
+
+
         public IEnumerable<Product> GetProducts()
         {
             using var jsonFileReader = File.OpenText(JsonFileName);
-            var jsonString = jsonFileReader.ReadToEnd();
-
-            var products = JsonSerializer.Deserialize<Product[]>(jsonString,
+            return JsonSerializer.Deserialize<Product[]>(jsonFileReader.ReadToEnd(),
                 new JsonSerializerOptions
                 {
                     PropertyNameCaseInsensitive = true
                 });
-
-            foreach (var product in products)
-            {
-                // Split the Description string into lines using a custom delimiter
-                var descriptionLines = product.Description.Split(new[] { "\\n" }, System.StringSplitOptions.None);
-
-                // Replace the original Description string with the list of lines
-                product.Description = string.Join("\n", descriptionLines);
-            }
-
-            return products;
         }
-
         public void AddRating(string productId, int rating)
         {
             var products = GetProducts();
