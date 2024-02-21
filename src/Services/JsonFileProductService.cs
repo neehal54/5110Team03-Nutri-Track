@@ -21,11 +21,24 @@ namespace ContosoCrafts.WebSite.Services
         public IEnumerable<Product> GetProducts()
         {
             using var jsonFileReader = File.OpenText(JsonFileName);
-            return JsonSerializer.Deserialize<Product[]>(jsonFileReader.ReadToEnd(),
+            var jsonString = jsonFileReader.ReadToEnd();
+
+            var products = JsonSerializer.Deserialize<Product[]>(jsonString,
                 new JsonSerializerOptions
                 {
                     PropertyNameCaseInsensitive = true
                 });
+
+            foreach (var product in products)
+            {
+                // Split the Description string into lines using a custom delimiter
+                var descriptionLines = product.Description.Split(new[] { "\\n" }, System.StringSplitOptions.None);
+
+                // Replace the original Description string with the list of lines
+                product.Description = string.Join("\n", descriptionLines);
+            }
+
+            return products;
         }
 
         public void AddRating(string productId, int rating)
