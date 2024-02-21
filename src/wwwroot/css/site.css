@@ -123,6 +123,7 @@ html {
 
 body {
     /* Margin bottom by footer height */
+    background-image: url(../img/bgimg.jpg);
     margin-bottom: 60px;
 }
 
