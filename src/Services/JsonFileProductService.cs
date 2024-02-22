@@ -18,6 +18,8 @@ namespace ContosoCrafts.WebSite.Services
 
         private string JsonFileName => Path.Combine(WebHostEnvironment.WebRootPath, "data", "products.json");
 
+
+
         public IEnumerable<Product> GetProducts()
         {
             using var jsonFileReader = File.OpenText(JsonFileName);
@@ -27,7 +29,6 @@ namespace ContosoCrafts.WebSite.Services
                     PropertyNameCaseInsensitive = true
                 });
         }
-
         public void AddRating(string productId, int rating)
         {
             var products = GetProducts();
