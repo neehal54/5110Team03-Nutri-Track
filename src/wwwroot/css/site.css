@@ -283,6 +283,9 @@ ul {
 }
 
 @media (max-width: 768px) {
+    .nav-left-buttons > * {
+        margin-left: 25px;
+    }
     .hero-text {
         max-width: 200px;
     }
