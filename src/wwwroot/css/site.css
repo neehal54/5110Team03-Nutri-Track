@@ -106,7 +106,8 @@ html {
 }
 
 .box-shadow {
-    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    box-shadow: 0 .25rem .75rem rgb(106 101 101);
+    background-color: #c7b06933;
 }
 
 button.accept-policy {
@@ -123,7 +124,7 @@ html {
 
 body {
     /* Margin bottom by footer height */
-    background-image: url(../img/bgimg.jpg);
+    background-color: #c7b06933;
     margin-bottom: 60px;
 }
 
