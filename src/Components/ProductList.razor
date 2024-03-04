@@ -15,8 +15,8 @@
             <div class="card-footer">
                 <small class="text-muted">
                     <button @onclick="(e => SelectProduct(product?.Id ?? string.Empty))"
-							data-toggle="modal" data-target="#productModal" class="card-button">
-                        More Info
+                            data-toggle="modal" data-target="#productModal" class="card-button">
+                        <span>More Info</span>
                     </button>
                 </small>
             </div>
@@ -52,10 +52,24 @@
 							}
 						<div class="card-footer">
 							<div class="row">
-								<div class="col">
-									<input class="form-control-sm" type="text" @onchange="(e) => UpdateMessageText(e.Value.ToString())" id="feedbackMessage" value="@MessageText" placeholder="Comment here" />
-									<button @onclick="(e => AddFeedback())" data-dismiss="modal" id="addFeedback" class="btn btn-success">Add Feedback</button>
-								</div>
+                                    <div class="col">
+                                        <input class="form-control-sm" type="text" @onchange="(e) => UpdateMessageText(e.Value.ToString())" id="feedbackMessage" value="@MessageText" placeholder="Enter your comment here" />
+                                        <button @onclick="(e => AddFeedback())" data-dismiss="modal" id="addFeedback" class="btn btn-success">Add Feedback</button>
+                                        <div id="errorMessage" style="display: none; color: red;">Please enter your feedback before submitting.</div>
+                                        <div id="successMessage" style="display: none; color: green;">Feedback submitted successfully!</div>
+                                        <script>
+                                            function AddFeedback() {
+                                                var feedbackMessage = document.getElementById("feedbackMessage").value;
+                                                if (feedbackMessage.trim().length === 0) {
+                                                    document.getElementById("errorMessage").style.display = "block";
+                                                    document.getElementById("successMessage").style.display = "none";
+                                                } else {
+                                                    document.getElementById("errorMessage").style.display = "none";
+                                                    document.getElementById("successMessage").style.display = "block";
+                                                }
+                                            }
+                                        </script>
+                                    </div>
 							</div>
 						</div>
                         </div>

@@ -317,3 +317,19 @@ ul {
         line-height: 17px;
     }
 }
+.card-button {
+    background-color: #9ACD32; /* Light green color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Transition effect for smoother color change */
+}
+
+    .card-button:hover span {
+        display: none; /* Hide the original text when hovering */
+    }
+
+    .card-button:hover::after {
+        content: "Get Recipe"; /* Display the new text when hovering */
+    }
