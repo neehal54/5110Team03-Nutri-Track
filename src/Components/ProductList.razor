@@ -3,7 +3,7 @@
 @using Microsoft.AspNetCore.Components.Web
 @inject JsonFileProductService ProductService
 
-<div class="card-columns">
+<div class="card-columns" style ="padding-bottom:60px;">
     @foreach (var product in ProductService.GetProducts())
     {
         <div class="card">
@@ -15,7 +15,7 @@
             <div class="card-footer">
                 <small class="text-muted">
                     <button @onclick="(e => SelectProduct(product?.Id ?? string.Empty))"
-                        data-toggle="modal" data-target="#productModal" class="btn btn-primary">
+							data-toggle="modal" data-target="#productModal" class="card-button">
                         More Info
                     </button>
                 </small>

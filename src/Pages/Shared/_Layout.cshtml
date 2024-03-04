@@ -15,7 +15,7 @@
 			<ul class="header-flex">
 				<li class="nav-left-buttons">
 					<a class="nav-recipe-link" href="/">HOME</a>
-					<a class="nav-recipe-link" href="/Privacy">RECIPES</a>
+					<a class="nav-recipe-link" href="/Recipes">RECIPES</a>
 				</li>
 				<li class="nav-logo">
 					<a href="/">
@@ -27,36 +27,23 @@
 				</li>
 			</ul>
 		</nav>
-		<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-navbar border-bottom box-shadow mb-3">
-		   <div class="container">
-				<a class="navbar-brand" asp-area="" asp-page="/Index">Nutri Track</a>
-
-                <!--<div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-					<ul class="navbar-nav flex-grow-1">
-						<li class="nav-item">
-							<a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-						</li>
-					</ul>
-				</div>-->
-			</div>
-		</nav>
 	</header>
 	<div>
-		<main role="main" class="pb-3">
+		<main role="main">
 			@RenderBody()
 		</main>
 	</div>
-
-	<footer class="border-top footer text-muted bg-footer">
-		<div class="container">
-			&copy; 2023 - NutriTrack - <a asp-area="" asp-page="/Privacy">Privacy</a>
-		</div>
-	</footer>
 
 	<script src="~/lib/jquery/dist/jquery.js"></script>
 	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
 	<script src="~/js/site.js" asp-append-version="true"></script>
 
 	@RenderSection("Scripts", required: false)
+
+	<footer class="border-top footer text-muted bg-footer" style="display:block">
+		<div class="container">
+			<strong>&copy; 2023 - NutriTrack</strong> - <a asp-area="" asp-page="/Privacy">Privacy</a>
+		</div>
+	</footer>
 </body>
 </html>
