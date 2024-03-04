@@ -8,10 +8,7 @@
 
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
-.card-columns
-{
-    margin-bottom:30px;
-}
+
 .card-columns .card:hover .card-img {
     opacity: 1;
     -webkit-transform-style: preserve-3d;
@@ -81,11 +78,6 @@ a {
         background-color: #FFAF10;
         border: none;
     }
-    .btn-primary:active {
-        background-color: #E28C03;
-        outline: none;
-        text-decoration: none;
-    }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     color: #fff;
@@ -131,11 +123,10 @@ html {
 
 body {
     /* Margin bottom by footer height */
-    /*background-image: url(../img/bgimg.jpg);*/
+    background-image: url(../img/bgimg.jpg);
+    margin-bottom: 60px;
 }
-img {
-    pointer-events: none;
-}
+
 p {
     font-family: 'Segoe UI',sans-serif;
 }
@@ -158,15 +149,14 @@ ul {
 }
 /*Backgrounds*/
 .bg-navbar {
-}
 
+}
 #navbar-top {
     background-color: white;
 }
-
 .bg-footer {
-    background: -webkit-linear-gradient(110deg, #68c10030 60%, #ffe3994f 100%);
-    background: -o-linear-gradient(110deg, #68c10030 60%, #ffe3994f 100%);
+    background: -webkit-linear-gradient(110deg, #68c10030 60%, #ffe3994f 60%);
+    background: -o-linear-gradient(110deg, #68c10030 60%, #ffe3994f 60%);
     background: -moz-linear-gradient(110deg, #68c10030 60%, #ffe3994f 60%);
     background: linear-gradient(110deg, #68c10030 60%, #ffe3994f 60%);
 }
@@ -186,7 +176,6 @@ ul {
     margin: auto;
     padding: 10px 0px;
 }
-
 .nav-logo {
     width: 20%;
     display: flex;
@@ -268,164 +257,12 @@ ul {
 }
 
 
-.landing-section {
-    position: relative;
-    height: 1150px;
-    padding-bottom: 60px;
-    overflow: hidden;
-   
-
-}
-    body:before {
-        content: "";
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        background-image: url(../img/bg-img.jpg);
-        background-size: cover;
-        opacity: 0.1;
-        bottom: 60px;
-    }
-.img-top-container {
-    width: 50%;
-    height: 45vh;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.landing-img-top {
-    max-width: 100%;
-    max-height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-.img-bottom-container {
-    width: 55%;
-    height: 38vh;
-    position: absolute;
-    bottom: 60px;
-    left: 0;
-}
-.landing-img-bottom {
-    max-width: 100%;
-    max-height: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-.website-info {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    padding-bottom: 120px;
-    width: 500px;
-    text-align: center;
-}
-
-.full-logo {
-    margin-bottom: 30px;
-    width: 450px;
-}
-
-.website-description {
-    font-size: 15pt;
-    font-weight: 400;
-    line-height: 28px;
-    margin: 0px;
-    color: black;
-}
-
-button {
-    cursor: pointer;
- 
-}
-
-.recipe-button, .recipe-button:focus {
-    font-family: 'Segoe UI',sans-serif;
-    border: 0;
-    background-color: #68C100;
-    border-radius: 50px;
-    font-weight: 700;
-    font-size: 20px;
-    letter-spacing: 0.75px;
-    color: white;
-    padding: 10px 20px;
-    margin-top: 20px;
-    outline: none;
-}
-
-    .recipe-button:hover {
-        background-color: #FFAF10;
-        border: none;
-        text-decoration: none;
-    }
-
-    .recipe-button:active {
-        background-color: #E28C03;
-        outline: none;
-        text-decoration: none;
-    }
-
-.card-button, .card-button:focus {
-    color: white;
-    background-color: #68C100;
-    border: none;
-    border-radius: 30px;
-    padding: 8px 18px;
-    font-size: 18px;
-    font-family: 'Segoe UI',sans-serif;
-    outline: none;
-
-}
-
-    .card-button:hover {
-        color: #fff;
-        background-color: #FFAF10;
-        border: none;
-    }
-
-    .card-button:active {
-        background-color: #E28C03;
-        outline: none;
-        text-decoration: none;
-    }
-
 @media (max-width: 1200px) {
     .hero-section {
         height: max-content;
     }
-
     .hero-text {
         max-width: 400px;
-    }
-    .full-logo {
-        width: 400px;
-        margin-bottom: 20px;
-    }
-    .website-info {
-        padding-bottom: 25px;
-    }
-
-    .img-top-container {
-        width: 120%;
-        height: 30vh;
-    }
-
-    .img-bottom-container {
-        width: 150%;
-        height: 29vh;
-    }
-    .full-logo {
-        width: 400px;
-        margin-bottom: 20px;
-    }
-    .website-info {
-        padding-bottom: 20px;
     }
 }
 
@@ -433,12 +270,10 @@ button {
     .nav-left-buttons {
         padding-left: 0px;
     }
-
     .hero-text {
         max-width: 300px;
         padding-bottom: 0px;
     }
-
     .hero-text-title {
         margin: -2px;
         font-size: 45px;
@@ -448,43 +283,24 @@ button {
         font-size: 19px;
         line-height: 20px;
     }
-    .full-logo {
-        width: 320px;
-        margin-bottom: 20px;
-    }
-
-    .website-description {
-        font-size: 13pt;
-        line-height: 24px;
-    }
-
-    .website-info {
-        padding-bottom: 0px;
-    }
-    
 }
 
 @media (max-width: 768px) {
     .nav-left-buttons > * {
         margin-left: 25px;
     }
-
     .hero-text {
         max-width: 200px;
     }
-
     .hero-text-title {
         font-size: 35px;
         margin: -5px;
     }
-
     .hero-text-description {
         font-size: 16px;
         line-height: 19px;
     }
-
 }
-
 @media (max-width: 576px) {
     .hero-text {
         max-width: 200px;
