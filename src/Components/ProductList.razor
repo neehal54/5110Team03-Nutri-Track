@@ -42,6 +42,22 @@
                         </div>
                         <div class="card-body">
                             <p class="card-text">@selectedProduct.Description</p>
+							@if (selectedProduct.Feedback != null)
+							{
+								<h5 class="card-text"> Feedbacks: </h5>
+								@foreach (var feedback in selectedProduct.Feedback)
+								{
+									<p class="card-text"> >>> @feedback</p>
+								}
+							}
+						<div class="card-footer">
+							<div class="row">
+								<div class="col">
+									<input class="form-control-sm" type="text" @onchange="(e) => UpdateMessageText(e.Value.ToString())" id="feedbackMessage" value="@MessageText" placeholder="Comment here" />
+									<button @onclick="(e => AddFeedback())" data-dismiss="modal" id="addFeedback" class="btn btn-success">Add Feedback</button>
+								</div>
+							</div>
+						</div>
                         </div>
                     </div>
                 </div>
@@ -78,6 +94,7 @@
 {
     Product? selectedProduct;
     string? selectedProductId;
+	string MessageText = null;
 
     void SelectProduct(string productId)
     {
@@ -115,4 +132,14 @@
         ProductService.AddRating(selectedProductId, rating);
         SelectProduct(selectedProductId);
     }
+	void UpdateMessageText(string message)
+	{
+		MessageText = message;
+	}
+
+	void AddFeedback()
+	{
+		ProductService.AddFeedckToProduct(selectedProductId, MessageText);
+		MessageText = null;
+	}
 }

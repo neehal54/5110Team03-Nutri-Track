@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
@@ -29,6 +30,49 @@ namespace ContosoCrafts.WebSite.Services
                     PropertyNameCaseInsensitive = true
                 });
         }
+
+        public bool AddFeedckToProduct(string id, string message)
+        {
+            
+            var ProductData = GetProducts();
+            var ProductToUpdate = ProductData.FirstOrDefault(P => P.Id.Equals(id));
+
+   
+            if (ProductToUpdate == null)
+            {
+                return false;
+            }
+
+            //If the feedback field is not present then make it and add the message
+            if (ProductToUpdate.Feedback == null)
+            {
+                ProductToUpdate.Feedback = new string[] { message };
+                SaveProductDataToJsonFile(ProductData);
+                return true;
+            }
+
+            //else append the message in the array
+
+            var feedbacks = ProductToUpdate.Feedback.ToList();
+            feedbacks.Add(message);
+            ProductToUpdate.Feedback = feedbacks.ToArray();
+
+            //Save the data to json file
+            SaveProductDataToJsonFile(ProductData);
+
+            return true;
+        }
+
+        private void SaveProductDataToJsonFile(IEnumerable<Product> productData)
+        {
+            var json = JsonSerializer.Serialize(productData, new JsonSerializerOptions
+            {
+                WriteIndented = true
+            });
+
+            File.WriteAllText(JsonFileName, json);
+        }
+     
         public void AddRating(string productId, int rating)
         {
             var products = GetProducts();
