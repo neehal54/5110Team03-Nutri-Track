@@ -9,15 +9,7 @@
     "Ratings": [
       2
     ],
-    "Feedback": [
-      "Good",
-      "Love the recipe",
-      "Nice",
-      null,
-      null,
-      "Test",
-      null
-    ]
+    "Feedback": null
   },
   {
     "Id": "Nomi-Hungry",
@@ -67,11 +59,7 @@
     "Title": "Zesty Shrimp Taco Salad",
     "Description": "Instructions: \u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028\u2028\u2028\u2028\u2028\u2028 \u2028 \u2028\u2028 \u2028  \u2028 \u2028 \u2028\u2028 \u2028 \u2028\u2028\u2028\u2028 \u2028\u2028\u2028\u2028\u2028 \u2028 \u2028 \u2028 \u2028 \u2028  Heat 1 tbsp oil in skillet over med-high; pat shrimp dry \u002B saut\u00E9 with half the seasoning packet (or more!) \u002B salt/pep, 2-3 min until shrimp is pink, opaque \u002B cooked through.-Chop lettuce \u002B add to a large bowl; add bean salad, shrimp \u002B toss to combine, then divide between plates. \u2028 \u2028 \u2028 \u2028Nutrition: \u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028\u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028\u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028 \u2028Amount per serving: Calories 300, Total Fat 6g (8% DV), Sat. Fat 0g (0% DV), Trans Fat 0g, Cholesterol 155mg (52% DV), Sodium 1360mg (60% DV), Total Carbohydrate 25g (10% DV), Dietary Fiber 6g (22% DV), Sugar 5g (includes 2g Added Sugars 4% DV), Protein 23g, Vitamin D (0% DV), Calcium (13% DV), Iron (36% DV), Potassium (10% DV). The % daily value tells you how much a nutrient in a serving of food is part of a daily diet. The % daily value (DV) is based on a 2,000 calorie diet. Calorie amount includes all olive oil mentioned in the recipe.",
     "Ratings": null,
-    "Feedback": [
-      null,
-      "Test Comment",
-      null
-    ]
+    "Feedback": null
   },
   {
     "Id": "steak",
